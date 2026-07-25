@@ -5,8 +5,8 @@ from anthropic import Anthropic
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
-client = Anthropic()
+api_key = os.getenv("ANTHROPIC_API_KEY") or st.secrets.get("ANTHROPIC_API_KEY")
+client = Anthropic(api_key=api_key)
 
 st.set_page_config(page_title="Finansal AI Analiz", page_icon="📊", layout="wide")
 
