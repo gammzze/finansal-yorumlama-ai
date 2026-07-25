@@ -49,6 +49,9 @@ streamlit run app.py
 ## 📸 Ekran Görüntüleri
 
 
+<img width="951" height="401" alt="Ekran görüntüsü 2026-07-25 184831" src="https://github.com/user-attachments/assets/5cdce29b-8e34-4961-9e09-563325191ed1" />
+
+
 ## 📌 Gelecek Planları
 
 - [ ] Likidite ve borçluluk oranları eklenmesi
